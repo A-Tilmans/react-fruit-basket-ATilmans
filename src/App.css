@@ -2,6 +2,7 @@
     width: 70px;
     height: 30px;
     background: none;
+    margin-inline: 10px;
 
 }
 
@@ -44,6 +45,13 @@ input[type=submit] {
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin-inline: 10px;
+    border: 3px solid darkcyan;
+    margin: 10px;
+
+
 
 }
+
+
 

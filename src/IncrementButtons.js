@@ -9,7 +9,7 @@ function IncrementButtons({title, setCounterMinus, counterFruit, setCounterPlus}
         type="button"
         onClick={setCounterMinus}
       >
-      <p>-</p>
+        <span className="minus-button">&#45;</span>
       </button>
       <p>{counterFruit}</p>
       <button
@@ -17,7 +17,7 @@ function IncrementButtons({title, setCounterMinus, counterFruit, setCounterPlus}
         type="button"
         onClick={setCounterPlus}
       >
-      <p>+</p>
+      <span className="plus-button">&#43;</span>
       </button>
     </div>
   );
