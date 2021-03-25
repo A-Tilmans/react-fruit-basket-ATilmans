@@ -2,10 +2,7 @@ import React, { useState,  } from 'react';
 import { useForm } from 'react-hook-form';
 
 import IncrementButtons from "./IncrementButtons";
-
-
 import './App.css';
-
 
 function App() {
 
@@ -17,11 +14,6 @@ function App() {
   const [ counterBananas, setCounterBananas ] = useState(0);
   const [ counterApples, setCounterApples ] = useState(0);
   const [ counterKiwis, setCounterKiwis ] = useState(0);
-
-  // const [formFirstName, setFormFirstName] = useState('');
-  // const [formLastName, setFormLastName] = useState('');
-  // const [formAge, setFormAge] = useState('');
-  // const [formPostCode, setFormPostCode] = useState('');
 
 
   function onFormSubmit(data){
